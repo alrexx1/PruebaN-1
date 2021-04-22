@@ -1,0 +1,55 @@
+<form class="my-form">
+    <link rel="stylesheet" href="Styles/StyleForm.CSS">
+    <div class="container">
+      <h1>Contactenos!</h1>
+      <ul>
+        <li>
+          <select>
+            <option selected disabled>-- Elija una opcción --</option>
+            <option>Asistencia</option>
+            <option>Enviar un resumen</option>
+            <option>Otro!</option>      
+          </select>
+        </li>
+        <li>
+          <div class="grid grid-2">
+            <input type="text" placeholder="Nombre" required>  
+            <input type="text" placeholder="Apellido" required>
+          </div>
+        </li>
+        <li>
+          <div class="grid grid-2">
+            <input type="email" placeholder="Email" required>  
+            <input type="tel" placeholder="Telefono">
+          </div>
+        </li>    
+        <li>
+          <textarea placeholder="Mensaje"></textarea>
+        </li>   
+        <li>
+          <input type="checkbox" id="terms">
+          <label for="terms">Yo acepto <a href="">los terminos y condiciones.</a></label>
+        </li>  
+        <li>
+          <div class="grid grid-3">
+            <div class="required-msg">Campos requeridos!</div>
+            <button class="btn-grid" type="submit">
+              <span class="back">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+              </span>
+              <span class="front">Subir</span>
+            </button>
+            <button class="btn-grid" type="reset">
+              <span class="back">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+              </span>
+              <span class="front">Reiniciar</span>
+            </button> 
+          </div>
+        </li>    
+      </ul>
+    </div>
+  </form>
+  <footer>
+       </div>
+  </footer>

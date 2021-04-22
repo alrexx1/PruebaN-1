@@ -18,10 +18,8 @@ body{
 }
 
 .redes, .logo{
-    background-color: #1d1515;
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
+   display: flex;
+   padding-top: 40px;
 }
 
 .contenedor{
@@ -48,7 +46,7 @@ body{
 }
 
 .button{
-    background-color: #b34b18;
+    background-color: #242982;
     border: 0px;
     padding: 10px;
     margin: 20px;
