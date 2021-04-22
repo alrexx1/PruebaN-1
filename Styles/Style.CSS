@@ -30,7 +30,7 @@ body{
     display: flex;    
     flex-direction: column;
     align-items: center;
-    background-color: #1b130f;
+    background-color: #5996a5;
     color: #3d3d3d;
     font-family: sans-serif;
 }
@@ -69,7 +69,7 @@ body{
 
     .contenedor{
         width: 70%;
-        background-color: #000000;
+        background-color: #5996a5;
     }
 
 }
