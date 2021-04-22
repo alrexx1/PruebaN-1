@@ -66,11 +66,12 @@ body{
     .logo{
         display: flex;
         justify-content: flex-start;
-        padding-left: 30px;
+        padding-left: 40px;
     }
 
     .contenedor{
-        width: 80%;
+        width: 70%;
         background-color: #e43f3f;
     }
+
 }

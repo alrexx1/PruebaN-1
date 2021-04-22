@@ -41,24 +41,24 @@ button:hover {
   margin: 24px 0 12px 0;
 }
 
-/* Avatar image */
+/* Avatar del formulario de login */
 img.avatar {
   width: 2%;
   border-radius: 50%;
 }
 
-/* Add padding to containers */
+/* Relleno para los containers */
 .container {
   padding: 16px;
 }
 
-/* The "Forgot password" text */
+/* texto de "olvidaste la contraseña" */
 span.psw {
   float: right;
   padding-top: 16px;
 }
 
-/* Change styles for span and cancel button on extra small screens */
+/* cambio de stilos para el span */
 @media screen and (max-width: 300px) {
   span.psw {
     display: block;
