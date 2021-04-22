@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 
-/* RESET RULES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root {
   --white: #afafaf;
   --red: #e31b23;
@@ -39,14 +37,12 @@ select {
   appearance: none;
 }
 
-/* Remove native arrow on IE */
+
 select::-ms-expand {
   display: none;
 }
 
-/*Remove dotted outline from selected option on Firefox*/
-/*https://stackoverflow.com/questions/3773430/remove-outline-from-select-box-in-ff/18853002#18853002*/
-/*We use !important to override the color set for the select on line 99*/
+
 select:-moz-focusring {
   color: transparent !important;
   text-shadow: 0 0 0 var(--white);
@@ -74,7 +70,7 @@ body {
 }
 
 
-/* FORM ELEMENTS
+/* elementos
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .my-form h1 {
   margin-bottom: 1.5rem;
@@ -105,7 +101,7 @@ body {
 
 .my-form ::placeholder {
   color: inherit;
-  /*Fix opacity issue on Firefox*/
+  /*opacidad*/
   opacity: 1;
 }
 
@@ -145,7 +141,7 @@ body {
 }
 
 
-/* FORM BTNS
+/* para los botones 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .my-form .required-msg {
   display: none;
@@ -188,7 +184,7 @@ body {
 }
 
 
-/* CUSTOM CHECKBOX
+/* chequeo
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .my-form input[type="checkbox"] {
   position: absolute;
