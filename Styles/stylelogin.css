@@ -1,6 +1,13 @@
 form {
   border: 3px solid #f1f1f1;
 }
+body{background-color: rgb(168, 169, 179);
+width: 100%;
+height: 200%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
 /* Imput De contraseña */
 input[type=text], input[type=password] {
@@ -8,14 +15,14 @@ input[type=text], input[type=password] {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(70, 171, 12);
   box-sizing: border-box;
 }
 
 /* Estilo de los botones  */
 button {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #0dac2d;
+  color: rgb(233, 233, 233);
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -32,7 +39,7 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
+  background-color: #f11404;
 }
 
 /* Centro de la imagen en container */
@@ -43,7 +50,7 @@ button:hover {
 
 /* Avatar del formulario de login */
 img.avatar {
-  width: 2%;
+  width: 5%;
   border-radius: 50%;
 }
 
