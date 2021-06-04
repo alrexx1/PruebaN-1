@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 
 :root {
-  --white: #afafaf;
+  --white: #f5f4f4;
   --red: #e31b23;
-  --bodyColor: #292a2b;
+  --bodyColor: rgb(168, 169, 179);"
   --borderFormEls: hsl(0, 0%, 10%);
   --bgFormEls: hsl(0, 0%, 14%);
   --bgFormElsFocus: hsl(0, 7%, 20%);
